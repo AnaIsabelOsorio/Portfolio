@@ -1,0 +1,109 @@
+<!-- <div id="about" class="bg-dark flex flex-col items-center min-h-screen py-20">
+  <h1 class="text-blue font-bold text-3xl">ABOUT ME</h1>
+
+  <div class="grid grid-cols-[1fr_3fr] gap-4  py-6 px-16">
+    <div class="text-white text-xl font-semibold pl-30 ">Who I am</div>
+    <div class="text-white text-xl font-semibold pr-20 text-justify pb-5">Systems Engineering student passionate about web development. I enjoy
+      solving
+      problems, building interactive applications, and continuously expanding my knowledge.</div>
+
+    <div class="text-white text-xl font-semibold pl-30">Education</div>
+    <div class="text-white text-xl font-semibold pr-20 text-justify pb-5">I’m in my seventh semester of Systems Engineering at the University
+      of Antioquia, with additional training in frontend development and software testing.</div>
+
+    <div class="text-white text-xl font-semibold pl-30">Tech Skills</div>
+    <div class="text-white text-xl font-semibold pr-20 text-justify pb-5 flex flex-wrap gap-2">
+      <span class="bg-navbar text-blue px-3 py-1 rounded-md text-xl font-semibold inline-block">Figma</span>
+        <span class="bg-navbar text-blue px-3 py-1 rounded-md text-xl font-semibold inline-block">HTML</span>
+        <span class="bg-navbar text-blue px-3 py-1 rounded-md text-xl font-semibold inline-block">CSS</span>
+        <span class="bg-navbar text-blue px-3 py-1 rounded-md text-xl font-semibold inline-block">JavaScript</span>
+        <span class="bg-navbar text-blue px-3 py-1 rounded-md text-xl font-semibold inline-block">Angular 19</span>
+        <span class="bg-navbar text-blue px-3 py-1 rounded-md text-xl font-semibold inline-block">SQL</span>
+        <span class="bg-navbar text-blue px-3 py-1 rounded-md text-xl font-semibold inline-block">NoSQL</span>
+        <span class="bg-navbar text-blue px-3 py-1 rounded-md text-xl font-semibold inline-block">Git</span>
+        <span class="bg-navbar text-blue px-3 py-1 rounded-md text-xl font-semibold inline-block">GitHub</span>
+        <span class="bg-navbar text-blue px-3 py-1 rounded-md text-xl font-semibold inline-block">Azure DevOps</span>
+    </div>
+
+    <div class="text-white text-xl font-semibold pl-30">Languages</div>
+    <div class="text-white text-xl font-semibold pr-20 text-justify pb-5">
+      <li>English: Intermediate (Currently improving)</li>
+      <li>Spanish: Native</li>
+    </div>
+
+    <div class="text-white text-xl font-semibold pl-30">Soft Skills</div>
+    <div class="text-white text-xl font-semibold pr-20 text-justify pb-5">Problem-solving, critical thinking, teamwork, collaboration,
+      adaptability and continuous learning</div>
+  </div>
+
+
+</div> -->
+
+<div id="about" class="bg-dark flex flex-col items-center min-h-screen py-20 md:py-20 px-4">
+  <h1 class="text-blue font-bold text-3xl mb-12">ABOUT ME</h1>
+
+  <!-- Contenedor principal para las secciones -->
+  <div class="w-full max-w-4xl flex flex-col gap-8">
+
+    <!-- Sección: Who I am
+      - bg-navbar: Fondo de tarjeta en móvil.
+      - md:bg-transparent: El fondo se vuelve transparente en escritorio.
+      - p-6 md:p-0: Añadimos padding en móvil y lo quitamos en escritorio.
+      - rounded-lg: Bordes redondeados para el look de tarjeta.
+      - text-center md:text-left: Centra el texto en móvil para que se vea mejor en la tarjeta.
+    -->
+    <div class="bg-navbar md:bg-transparent p-6 md:p-0 rounded-lg grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-8 gap-y-2 text-center md:text-left">
+      <!-- Subtítulo:
+        - text-white: Ahora es blanco por defecto (móvil).
+        - md:text-blue: Vuelve a ser azul en escritorio.
+      -->
+      <h2 class="text-white md:text-blue font-bold text-xl">Who I am</h2>
+      <p class="text-white text-lg text-justify">
+        Systems Engineering student passionate about web development. I enjoy solving problems, building interactive applications, and continuously expanding my knowledge.
+      </p>
+    </div>
+
+    <!-- Sección: Education -->
+    <div class="bg-navbar md:bg-transparent p-6 md:p-0 rounded-lg grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-8 gap-y-2 text-center md:text-left">
+      <h2 class="text-white md:text-blue font-bold text-xl">Education</h2>
+      <p class="text-white text-lg text-justify">
+        I’m in my seventh semester of Systems Engineering at the University of Antioquia, with additional training in frontend development and software testing.
+      </p>
+    </div>
+
+    <!-- Sección: Tech Skills -->
+    <div class="bg-navbar md:bg-transparent p-6 md:p-0 rounded-lg grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-8 gap-y-2 text-center md:text-left">
+      <h2 class="text-white md:text-blue font-bold text-xl">Tech Skills</h2>
+      <!-- justify-center para centrar las etiquetas en la tarjeta móvil -->
+      <div class="flex flex-wrap gap-2 justify-center md:justify-start">
+        <span class="bg-dark md:bg-navbar text-blue px-3 py-1 rounded-md text-sm font-semibold">Figma</span>
+        <span class="bg-dark md:bg-navbar text-blue px-3 py-1 rounded-md text-sm font-semibold">HTML</span>
+        <span class="bg-dark md:bg-navbar text-blue px-3 py-1 rounded-md text-sm font-semibold">CSS</span>
+        <span class="bg-dark md:bg-navbar text-blue px-3 py-1 rounded-md text-sm font-semibold">JavaScript</span>
+        <span class="bg-dark md:bg-navbar text-blue px-3 py-1 rounded-md text-sm font-semibold">Angular 19</span>
+        <span class="bg-dark md:bg-navbar text-blue px-3 py-1 rounded-md text-sm font-semibold">SQL</span>
+        <span class="bg-dark md:bg-navbar text-blue px-3 py-1 rounded-md text-sm font-semibold">NoSQL</span>
+        <span class="bg-dark md:bg-navbar text-blue px-3 py-1 rounded-md text-sm font-semibold">Git</span>
+        <span class="bg-dark md:bg-navbar text-blue px-3 py-1 rounded-md text-sm font-semibold">GitHub</span>
+        <span class="bg-dark md:bg-navbar text-blue px-3 py-1 rounded-md text-sm font-semibold">Azure DevOps</span>
+      </div>
+    </div>
+
+    <!-- Sección: Languages -->
+    <div class="bg-navbar md:bg-transparent p-6 md:p-0 rounded-lg grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-8 gap-y-2 text-center md:text-left">
+      <h2 class="text-white md:text-blue font-bold text-xl">Languages</h2>
+      <ul class="text-white text-left text-lg list-none p-0 m-0">
+        <li><span class="font-semibold">English:</span> Intermediate (Currently improving)</li>
+        <li><span class="font-semibold">Spanish:</span> Native</li>
+      </ul>
+    </div>
+
+    <!-- Sección: Soft Skills -->
+    <div class="bg-navbar md:bg-transparent p-6 md:p-0 rounded-lg grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-x-8 gap-y-2 text-center md:text-left">
+      <h2 class="text-white md:text-blue font-bold text-xl">Soft Skills</h2>
+      <p class="text-white text-lg text-justify">
+        Problem-solving, critical thinking, teamwork, collaboration, adaptability and continuous learning.
+      </p>
+    </div>
+  </div>
+</div>
