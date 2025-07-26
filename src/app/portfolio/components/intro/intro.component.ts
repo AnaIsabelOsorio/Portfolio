@@ -19,7 +19,7 @@ export class IntroComponent {
 
       setTimeout(() => {
         this.showNotification = false;
-      }, 3000);
+      }, 3500);
     } catch (err) {
       window.location.href = `mailto:${this.emailAddress}`;
     }
